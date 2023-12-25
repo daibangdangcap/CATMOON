@@ -9,7 +9,6 @@
         width: 100%;
         color: white;
         margin: 0;
-        border: solid red 0.5px;
     }
     .bg_footer h3{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,7 +39,7 @@
         height: auto;
     }
 </style>
-<div class="bg_footer">
+<footer class="bg_footer">
     <div class="left-content">
         <h3>CÁC DỊCH VỤ</h3>
         <ul>
@@ -65,4 +64,4 @@
             <li><img src="/icons/facebook.png" class="icon"> www.facebook.com/catmoonvn</li>
         </ul>
     </div>
-</div>
+</footer>

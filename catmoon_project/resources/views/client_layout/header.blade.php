@@ -5,9 +5,8 @@
         height: 174px;
         background-repeat: no-repeat;
         background-position: top center;
-        z-index: 2;
+        z-index: 3;
         display:block;
-        border: solid red 0.5px;
         position: sticky;
         top:0%;
     }
@@ -74,7 +73,7 @@
     letter-spacing: 3px;
 }
 </style>
-<div class="bg_header">
+<header class="bg_header">
     <div class="top-nav">
         <img src="/bg_images/logo.png" class="logo" />
         <div class="left-nav">
@@ -87,12 +86,12 @@
     </div>
     <div class="nav">
         <ul>
-            <li><a>GIỚI THIỆU</a></li>
-            <li><a>TIN TỨC</a></li>
-            <li><a>COFFEE</a></li>
-            <li><a>CỬA HÀNG CHO MÈO</a></li>
-            <li><a>NHẬN NUÔI</a></li>
-            <li><a>LIÊN HỆ</a></li>
+            <li><a style="color: #C6C6C6;">GIỚI THIỆU</a></li>
+            <li><a style="color: #C6C6C6;">TIN TỨC</a></li>
+            <li><a style="color: #C6C6C6;">COFFEE</a></li>
+            <li><a style="color: #C6C6C6;">CỬA HÀNG CHO MÈO</a></li>
+            <li><a style="color: #C6C6C6;">NHẬN NUÔI</a></li>
+            <li><a style="color: #C6C6C6;">LIÊN HỆ</a></li>
         </ul>
     </div>
-</div>
+</header>
