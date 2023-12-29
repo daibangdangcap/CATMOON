@@ -19,4 +19,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/mainpage',function(){
     return view('client/dashboard');
-});
+})->name('mainpage');
+
+//SHOPPING
+Route::get('/product-category',function(){
+    return view('client/shopping/products/product-category');
+})->name('product-category');

@@ -38,7 +38,7 @@
         font-size: 20px;
     }
 
-    .search-box{
+    .left-nav .search-box{
         padding: 10px;
         border-radius: 10px;
         overflow: hidden;
@@ -62,7 +62,7 @@
     .nav li:hover{
         background-color: white;
     }
-    .nav a {
+    .nav ul li a {
     display: block;
     color: #C6C6C6;
     text-align: center;
@@ -75,7 +75,7 @@
 </style>
 <header class="bg_header">
     <div class="top-nav">
-        <img src="/bg_images/logo.png" class="logo" />
+        <img src="/bg_images/logo.png" class="logo"/>
         <div class="left-nav">
             <input type="text" placeholder="Tìm kiếm..." class="search-box">
         </div>
@@ -86,10 +86,10 @@
     </div>
     <div class="nav">
         <ul>
-            <li><a style="color: #C6C6C6;">GIỚI THIỆU</a></li>
+            <li><a style="color: #C6C6C6;" href="{{ route('mainpage') }}">GIỚI THIỆU</a></li>
             <li><a style="color: #C6C6C6;">TIN TỨC</a></li>
             <li><a style="color: #C6C6C6;">COFFEE</a></li>
-            <li><a style="color: #C6C6C6;">CỬA HÀNG CHO MÈO</a></li>
+            <li><a style="color: #C6C6C6;" href="{{ route('product-category') }}">CỬA HÀNG CHO MÈO</a></li>
             <li><a style="color: #C6C6C6;">NHẬN NUÔI</a></li>
             <li><a style="color: #C6C6C6;">LIÊN HỆ</a></li>
         </ul>
