@@ -13,15 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/mainpage', function () {
-//     return view('client_layout/mainpage');
-// });
-
+//MAINPAGE
 Route::get('/mainpage',function(){
     return view('client/dashboard');
 })->name('mainpage');
 
 //SHOPPING
-Route::get('/product-category',function(){
-    return view('client/shopping/products/product-category');
-})->name('product-category');
+// Route::get('/product-category',function(){
+//     return view('client/shopping/products/product-category');
+// })->name('product-category');
+Route::prefix('/product-category')->group(function(){
+    Route::get('',function(){
+        return view('client/shopping/products/product-category');
+    })->name('product-category');
+    Route::get('/{idSP}',function(){return view('client/shopping/products/product_detail');})->name('product-detail');
+});

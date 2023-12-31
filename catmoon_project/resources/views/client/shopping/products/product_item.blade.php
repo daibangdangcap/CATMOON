@@ -5,6 +5,7 @@
         margin-top: 20px;
         border-radius: 10px;
         box-shadow: 0pt 2pt 2pt 0pt rgb(0, 0, 0, 0.3);
+        cursor: pointer;
     }
     .img-item{
         width: 90%;
@@ -33,7 +34,12 @@
         font-weight: 700;
     }
 </style>
-<div class="frame">
+<script>
+    function clickDetail(){
+        window.location.href='<?php echo route('product-detail',['1']);?>';
+    }
+</script>
+<div class="frame" onclick="clickDetail()">
     <img src="bg_images/logo.png" class="img-item"/>
     <p class="name-item">Vòng cổ cho mèo hình kẻ vằn</p>
     <p class="price-item">50.000đ</p>
