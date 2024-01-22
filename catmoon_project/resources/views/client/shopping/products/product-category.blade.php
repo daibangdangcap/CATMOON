@@ -78,7 +78,7 @@
 <div class="taskbar">
 <div class="taskbar-area">
 <ul>
-        <li><a>Quần áo</a></li>
+        <li><a>Đồ ăn</a></li>
         <li><a>Phụ kiện</a></li>
         <li><a>Thời trang</a></li>
     </ul>
